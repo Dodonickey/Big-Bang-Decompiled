@@ -7,10 +7,10 @@ public static class IpConfig
 {
     private const string CONFIG_FILENAME = "ipconfig.txt";
     private const string ROOT_FOLDER_NAME = "BigBangRacing";
-    private const string SUB_FOLDER_NAME = "Config";
+    private const string SUB_FOLDER_NAME = "BigBang249_ipConfig";
 
     private const string DEFAULT_SERVER_URL =
-        "http://PlayDevLB-1049210432.us-west-2.elb.amazonaws.com";
+        "https://woeprod.traplightgames.com";
 
     private const int MAX_FILE_LENGTH = 2048;
 
