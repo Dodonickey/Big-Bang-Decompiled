@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Server;
 using UnityEngine;
 
 public static class PsState
@@ -9,9 +10,9 @@ public static class PsState
 
 	public const bool LOG_ALL = false;
 
-	public const string SERVER_BASE = "http://192.168.0.24";//"https://woeprod.traplightgames.com";
+    public static string SERVER_BASE { get { return IpConfig.ServerUrl; } }//"https://woeprod.traplightgames.com";
 
-	public const string BUILD_SERVER = "";
+    public const string BUILD_SERVER = "";
 
 	public const string STORE_ID = "com.traplight.bigbangracing";
 
