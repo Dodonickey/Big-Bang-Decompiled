@@ -1,4 +1,4 @@
-# What on Earth Decompiled
+# Big Bang 2.4.9 Decompiled
 
 This repo contains a decompilation for one of the earliest Android Builds of the game **Big Bang Racing** by Traplight Games.
 
