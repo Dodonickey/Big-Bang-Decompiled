@@ -38,6 +38,8 @@ I recommend using **Unity 5.4.0f1**, as this is the exact version I used for thi
 
 Using a later or earlier version may cause compatibility issues.
 
+[Click here to download Unity 5.4.0f1](https://unity.com/releases/editor/whats-new/5.4.0f1#installs)
+
 ## 2. Open the Project
 
 After installing Unity 5.4.0f1, open this repository as a Unity project.
