@@ -24,7 +24,9 @@ Note: Third-party download pages may display ads or pop-ups. Please be cautious 
 
 > ⚠️ **IMPORTANT: THIS GAME IS NOT OFFLINE.**
 >
-> (TODO: Add the server link. Check Todo.md)
+> You **must** use [this server](https://github.com/BTE-92/BBR249-Server) in order to actually play the game.
+>
+> TODO: Update Instructions to include modifying IpConfig file.
 >
 > **Without the server, the game will not work.**
 
