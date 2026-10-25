@@ -6,8 +6,12 @@ public class WOEURL : URL
 	{
 		if (!string.IsNullOrEmpty(_command))
 		{
-			host = IpConfig.ServerUrl;//"https://woeprod.traplightgames.com";
-			command = _command;
+#if !UNITY_WEBGL
+            host = IpConfig.ServerUrl;//"https://woeprod.traplightgames.com";
+#else
+			host = "http://127.0.0.1"; //Hardcoding for now.
+#endif
+            command = _command;
 		}
 	}
 

@@ -8,7 +8,12 @@ public static class PsState
 	public const bool DEV_BUILD = false;
 
 	public const bool LOG_ALL = false;
-	public static string SERVER_BASE { get { return IpConfig.ServerUrl; } }//"https://woeprod.traplightgames.com";
+
+#if !UNITY_WEBGL
+    public static string SERVER_BASE { get { return IpConfig.ServerUrl; } }//"https://woeprod.traplightgames.com";
+#else
+	public const string SERVER_BASE = "http://127.0.0.1"; //Hardcoding for now.
+#endif
 
 	public const string BUILD_SERVER = "";
 

@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Ommiting on WebGL for now till a better solution is found for changing the IP on WebGL. Editing ipconfig file via browser console to access file system is tedious!
+#if !UNITY_WEBGL
+using System;
 using System.IO;
 using UnityEngine;
 
@@ -336,3 +338,4 @@ public static class IpConfig
     }
 
 }
+#endif
